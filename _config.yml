@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Trevor Stephens"
 title_separator          : "-"
 name                     : "Trevor Stephens"
-description              : "My Blog."
+description              : "My Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -26,6 +26,7 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+
 
 # SEO Related
 google_site_verification :
@@ -62,7 +63,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Trevor Stephens"
-  avatar           : "bio-photo.jpg"
+  avatar           : "blue_avatar.png"
   bio              : "Data Scientist"
   location         : "San Francisco, CA"
   email            :
@@ -146,7 +147,7 @@ kramdown:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -159,6 +160,9 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-redirect-from
+  - jekyll-mentions
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -167,6 +171,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-redirect-from
+  - jekyll-mentions
 
 
 # Archives
