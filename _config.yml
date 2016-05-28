@@ -14,7 +14,7 @@ description              : "My Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : default-header.png
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -28,11 +28,28 @@ comments:
     colorscheme          : # "light" (default), "dark"
 
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      header:
+        image: default-header.png
+
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
 
 # Social Sharing
 twitter:
@@ -67,7 +84,7 @@ author:
   bio              : "Data Scientist"
   location         : "San Francisco, CA"
   email            :
-  uri              :
+  uri              : http://trevorstephens.com
   bitbucket        :
   codepen          :
   dribbble         :
@@ -147,7 +164,7 @@ kramdown:
 
 
 # Outputting
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
