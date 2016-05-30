@@ -28,6 +28,17 @@
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
+      {% if include.type != "grid" and teaser != blank %}
+        <div class="archive__item-teaser">
+          <img src=
+            {% if teaser contains "http" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        </div>
+      {% endif %}
       {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
     </article>
   </a>
