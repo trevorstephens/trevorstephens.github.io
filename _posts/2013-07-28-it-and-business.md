@@ -1,5 +1,6 @@
 ---
 title: "Information technology and business are becoming inextricably interwoven"
+category: Ramblings
 tags:
   - Ramblings
 ---

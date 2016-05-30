@@ -1,6 +1,6 @@
 ---
 title: "A journey begins"
-category: ramblings
+category: Ramblings
 tags:
   - Ramblings
 ---
