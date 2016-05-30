@@ -9,6 +9,10 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.noindex %}
+      <!-- meta robots -->
+ 	  <meta name="robots" content="noindex" />
+    {% endif %}
   </head>
 
   <body>
