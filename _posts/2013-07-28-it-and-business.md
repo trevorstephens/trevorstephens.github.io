@@ -1,8 +1,11 @@
 ---
 title: "Information technology and business are becoming inextricably interwoven"
+excerpt: "I don't think anybody can talk meaningfully about one without talking about the other."
 category: Ramblings
 tags:
   - Ramblings
+redirect_from:
+  - post/56601796639/information-technology-and-business-are-becoming
 ---
 
 > Information technology and business are becoming inextricably interwoven. I don't think anybody can talk meaningfully about one without talking about the other.

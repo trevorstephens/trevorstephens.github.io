@@ -1,10 +1,10 @@
 ---
 title: "A journey begins"
+excerpt: "Hello world!"
 category: Ramblings
 tags:
   - Ramblings
 redirect_from:
-  - /post/56567621236
   - /post/56567621236/a-journey-begins
 ---
 

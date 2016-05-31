@@ -1,7 +1,10 @@
 # main links links
 main:
   - title: "Titanic Tutorial"
-    url: http://trevorstephens.com
+    url: /kaggle-titanic-tutorial/getting-started-with-r/
+
+  - title: "Archive"
+    url: /archive/
 
   - title: "About"
-    url: http://trevorstephens.com
+    url: /
