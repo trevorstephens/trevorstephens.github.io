@@ -40,7 +40,7 @@ defaults:
       comments: true
       share: true
       related: true
-      noindex: true
+      noindex: false
       header:
         image: default-header.png
 
