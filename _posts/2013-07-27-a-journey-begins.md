@@ -6,6 +6,7 @@ tags:
   - Ramblings
 redirect_from:
   - /post/56567621236/a-journey-begins
+  - /post/56567621236
 ---
 
 My father, a mathematician, writes a series of questions for a senior year mathematics exam about an intrepid adventurer called [Tasmania Jones](https://www.facebook.com/pages/Tasmania-Jones/39164499898){:target="_blank"} who often finds trouble during his international escapades. Invariably, the only way to save him from certain death is to solve an applied mathematics problem. Once I confessed to my high school classmates that my father was responsible for these questions, frequently the bane of exam takers, we both gained widespread notoriety. It could be said that applying mathematical analysis to real-world problems is in my blood.
