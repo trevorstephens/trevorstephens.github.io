@@ -168,7 +168,7 @@ Hmm, a few seemed to have slipped through the cracks here. There's plenty of Fam
 
 Now we have stored the table above to a dataframe. Yep, you can store most tables to a dataframe if you want to, so let's take a look at it by clicking on it in the explorer:
 
-![Family IDs]({{ site.url }}/images/2014-01-16-kaggle-titanic-r-part-4-feature-engineering-1.png){: .align-center}
+![Family IDs]({{ site.url }}/images/2014-01-16-r-part-4-feature-engineering-1.png){: .align-center}
 
 Here we see again all those naughty families that didn't work well with our assumptions, so let's subset this dataframe to show only those unexpectedly small FamilyID groups.
 
@@ -206,13 +206,13 @@ Time to do our predictions! We have a bunch of new variables, so let's send them
                method="class")
 ```
 
-![Engineered tree]({{ site.url }}/images/2014-01-16-kaggle-titanic-r-part-4-feature-engineering-2.png){: .align-center}
+![Engineered tree]({{ site.url }}/images/2014-01-16-r-part-4-feature-engineering-2.png){: .align-center}
 
 Interestingly our new variables are basically governing our tree. Here's another drawback with decision trees that I didn't mention last time: they are biased to favour factors with many levels. Look at how our 61-level FamilyID factor is so prominent here, and the tree picked out all the families that are biased one way more than the others. This way the decision node can chop and change the data into the best way possible combination for purity of the following nodes.
 
 But all that aside, you know should know how to create a submission from a decision tree, so let's see how it performed!
 
-![Submission 6]({{ site.url }}/images/2014-01-16-kaggle-titanic-r-part-4-feature-engineering-3.png){: .align-center}
+![Submission 6]({{ site.url }}/images/2014-01-16-r-part-4-feature-engineering-3.png){: .align-center}
 
 Awesome, we just almost halved our rank! All by squeezing a bit more value out of what we already had. And this is just a sample of what you might be able to find in this dataset.
 
