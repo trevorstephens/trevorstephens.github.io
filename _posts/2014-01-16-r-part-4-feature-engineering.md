@@ -111,7 +111,7 @@ For the ladies, we have Dona, Lady, Jonkheer (*see comments below), and of cours
 
 ```r
 > combi$Title[combi$Title %in% c('Capt', 'Don', 'Major', 'Sir')] <- 'Sir'
-< ncombi$Title[combi$Title %in% c('Dona', 'Lady', 'the Countess', 'Jonkheer')] <- 'Lady'
+< combi$Title[combi$Title %in% c('Dona', 'Lady', 'the Countess', 'Jonkheer')] <- 'Lady'
 ```
 
 Our final step is to change the variable type back to a factor, as these are essentially categories that we have created:
