@@ -11,7 +11,7 @@ title                    : "Trevor Stephens"
 title_separator          : "-"
 name                     : "Trevor Stephens"
 description              : "My Blog"
-url                      : "http://trevorstephens.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://trevorstephens.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/trevorstephens/trevorstephens.github.io"
 teaser                   : default-header.png
@@ -85,7 +85,7 @@ author:
   bio              : "Regular Data Scientist, Occasional Blogger."
   location         : "San Francisco, CA"
   email            :
-  uri              : http://trevorstephens.com
+  uri              : https://trevorstephens.com
   bitbucket        :
   codepen          :
   dribbble         :
